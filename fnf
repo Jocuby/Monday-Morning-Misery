@@ -26,7 +26,7 @@ getgenv().restartautoplayss = function()
 		getgenv().newgui:Disconnect()
 		getgenv().newgui = nil
 	end
-	playing = false
+	playing = true
 end
 
 Tab:AddToggle({
